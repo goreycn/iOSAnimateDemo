@@ -34,6 +34,16 @@
 		D1D882D11D334D0C003A78D8 /* mj.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D1D882D01D334D0C003A78D8 /* mj.mp4 */; };
 		D1D882D31D334D1F003A78D8 /* AVPlayerLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882D21D334D1F003A78D8 /* AVPlayerLayerVC.swift */; };
 		D1D882D51D334D96003A78D8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D882D41D334D96003A78D8 /* AVFoundation.framework */; };
+		D1D882D71D33BD84003A78D8 /* ChangeColorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882D61D33BD84003A78D8 /* ChangeColorVC.swift */; };
+		D1D882D91D33CD56003A78D8 /* GGUIColorExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882D81D33CD56003A78D8 /* GGUIColorExt.swift */; };
+		D1D882DB1D33D3C7003A78D8 /* ViewLayerActionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882DA1D33D3C7003A78D8 /* ViewLayerActionVC.swift */; };
+		D1D882DD1D345E72003A78D8 /* TransactionPushVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882DC1D345E72003A78D8 /* TransactionPushVC.swift */; };
+		D1D882DF1D346359003A78D8 /* PresentationLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882DE1D346359003A78D8 /* PresentationLayerVC.swift */; };
+		D1D882E11D346BE8003A78D8 /* PropertyAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882E01D346BE8003A78D8 /* PropertyAnimationVC.swift */; };
+		D1D882E31D347378003A78D8 /* CAKeyframeAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882E21D347378003A78D8 /* CAKeyframeAnimation.swift */; };
+		D1D882E51D3474D7003A78D8 /* BezierPathAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882E41D3474D7003A78D8 /* BezierPathAnimationVC.swift */; };
+		D1D882E71D347946003A78D8 /* TransformAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882E61D347946003A78D8 /* TransformAnimationVC.swift */; };
+		D1D882E91D347BA3003A78D8 /* AnimationGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882E81D347BA3003A78D8 /* AnimationGroupVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -81,6 +91,16 @@
 		D1D882D01D334D0C003A78D8 /* mj.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mj.mp4; sourceTree = "<group>"; };
 		D1D882D21D334D1F003A78D8 /* AVPlayerLayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVPlayerLayerVC.swift; sourceTree = "<group>"; };
 		D1D882D41D334D96003A78D8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D1D882D61D33BD84003A78D8 /* ChangeColorVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeColorVC.swift; sourceTree = "<group>"; };
+		D1D882D81D33CD56003A78D8 /* GGUIColorExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGUIColorExt.swift; sourceTree = "<group>"; };
+		D1D882DA1D33D3C7003A78D8 /* ViewLayerActionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewLayerActionVC.swift; sourceTree = "<group>"; };
+		D1D882DC1D345E72003A78D8 /* TransactionPushVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionPushVC.swift; sourceTree = "<group>"; };
+		D1D882DE1D346359003A78D8 /* PresentationLayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresentationLayerVC.swift; sourceTree = "<group>"; };
+		D1D882E01D346BE8003A78D8 /* PropertyAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyAnimationVC.swift; sourceTree = "<group>"; };
+		D1D882E21D347378003A78D8 /* CAKeyframeAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAKeyframeAnimation.swift; sourceTree = "<group>"; };
+		D1D882E41D3474D7003A78D8 /* BezierPathAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BezierPathAnimationVC.swift; sourceTree = "<group>"; };
+		D1D882E61D347946003A78D8 /* TransformAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformAnimationVC.swift; sourceTree = "<group>"; };
+		D1D882E81D347BA3003A78D8 /* AnimationGroupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationGroupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +184,7 @@
 				D162EB7D1D31E870004B9773 /* GGViewExt.swift */,
 				D1D882BB1D320B66003A78D8 /* GGImageViewCornerExt.swift */,
 				D1D882C51D3320C3003A78D8 /* GGUIViewControllerExt.swift */,
+				D1D882D81D33CD56003A78D8 /* GGUIColorExt.swift */,
 			);
 			path = Ext;
 			sourceTree = "<group>";
@@ -188,6 +209,15 @@
 				D1D882CA1D3332B3003A78D8 /* ReflectionVC.swift */,
 				D1D882CC1D3341D1003A78D8 /* CAEmitterLayerVC.swift */,
 				D1D882D21D334D1F003A78D8 /* AVPlayerLayerVC.swift */,
+				D1D882D61D33BD84003A78D8 /* ChangeColorVC.swift */,
+				D1D882DA1D33D3C7003A78D8 /* ViewLayerActionVC.swift */,
+				D1D882DC1D345E72003A78D8 /* TransactionPushVC.swift */,
+				D1D882DE1D346359003A78D8 /* PresentationLayerVC.swift */,
+				D1D882E01D346BE8003A78D8 /* PropertyAnimationVC.swift */,
+				D1D882E21D347378003A78D8 /* CAKeyframeAnimation.swift */,
+				D1D882E41D3474D7003A78D8 /* BezierPathAnimationVC.swift */,
+				D1D882E61D347946003A78D8 /* TransformAnimationVC.swift */,
+				D1D882E81D347BA3003A78D8 /* AnimationGroupVC.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -325,20 +355,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1D882E11D346BE8003A78D8 /* PropertyAnimationVC.swift in Sources */,
+				D1D882D71D33BD84003A78D8 /* ChangeColorVC.swift in Sources */,
+				D1D882DB1D33D3C7003A78D8 /* ViewLayerActionVC.swift in Sources */,
+				D1D882DF1D346359003A78D8 /* PresentationLayerVC.swift in Sources */,
 				D1D882C41D33203C003A78D8 /* CAReplicatorLayerVC.swift in Sources */,
 				D1D882D31D334D1F003A78D8 /* AVPlayerLayerVC.swift in Sources */,
 				D1D882CB1D3332B3003A78D8 /* ReflectionVC.swift in Sources */,
 				D1D882BC1D320B66003A78D8 /* GGImageViewCornerExt.swift in Sources */,
 				D1D882B81D3202D5003A78D8 /* RoundCornerMaskVC.swift in Sources */,
+				D1D882E51D3474D7003A78D8 /* BezierPathAnimationVC.swift in Sources */,
+				D1D882E71D347946003A78D8 /* TransformAnimationVC.swift in Sources */,
 				D1D882B21D31FC0F003A78D8 /* CAShapeLayerVC.swift in Sources */,
+				D1D882E91D347BA3003A78D8 /* AnimationGroupVC.swift in Sources */,
 				D162EB6B1D31E865004B9773 /* ViewController.swift in Sources */,
 				D162EB691D31E865004B9773 /* AppDelegate.swift in Sources */,
+				D1D882D91D33CD56003A78D8 /* GGUIColorExt.swift in Sources */,
+				D1D882DD1D345E72003A78D8 /* TransactionPushVC.swift in Sources */,
 				D1D882BE1D33012C003A78D8 /* CATextLayerVC.swift in Sources */,
 				D1D882C01D331305003A78D8 /* CATransformLayerVC.swift in Sources */,
 				D1D882CD1D3341D1003A78D8 /* CAEmitterLayerVC.swift in Sources */,
 				D162EB7F1D31E870004B9773 /* GGSnapKitExt.swift in Sources */,
 				D162EB801D31E870004B9773 /* GGViewExt.swift in Sources */,
 				D1D882C61D3320C3003A78D8 /* GGUIViewControllerExt.swift in Sources */,
+				D1D882E31D347378003A78D8 /* CAKeyframeAnimation.swift in Sources */,
 				D162EB7E1D31E870004B9773 /* GGButtonExt.swift in Sources */,
 				D1D882C21D331CD9003A78D8 /* CAGradientLayerVC.swift in Sources */,
 				D162EB861D31E8E0004B9773 /* MenuVC.swift in Sources */,
