@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource, UITabBarControllerDelegate {
     
     override func viewDidLoad() {
         title = "category"
@@ -52,14 +52,29 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             "CAKeyframeAnimation",
             "BezierPathAnimation",
             "虚拟属性动画",
-            "动画组"
+            "动画组",
+            "过渡动画",
+            "对TabBarController加动画(无效)",
+            "transitionWithView"
+        ],
+        [
+            "CAMediaTiming",
+            "开门关门",
+            "手动控制关门"
+        ],
+        [
+            "缓冲函数简单测试",
+            "对View作同上的测试",
+            "KeyframeAnimaiton的缓冲"
         ]
     ]
     
     let menuTitles = [
         "专用图层",
         "隐式动画",
-        "显式动画"
+        "显式动画",
+        "图层时间",
+        "缓冲"
     ]
     
     // MARK: - tableview delegate/datasoure
@@ -134,6 +149,34 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
             vc = TransformAnimationVC()
         case (2, 4):
             vc = AnimationGroupVC()
+        case (2, 5):
+            vc = FadeAnimationVC()
+        case (2, 6):
+            // 在TabBarController的delegate里设置切换动画效果
+            let c = UITabBarController()
+            c.delegate = self
+            
+            let a = TabOneVC()
+            a.title = "TabOneVC"
+            
+            let b = TabTwoVC()
+            b.title = "TabTwoVC"
+            c.viewControllers = [a, b]
+            vc = c
+        case (2, 7):
+            vc = TransitionWithViewVC()
+        case (3, 0):
+            vc = CAMediaTimingVC()
+        case (3, 1):
+            vc = AutoReverseVC()
+        case (3, 2):
+            vc = ReverseControlVC()
+        case (4, 0):
+            vc = CAMediaTimingFunctionVC()
+        case (4, 1):
+            vc = ViewAnimateCurveOptionVC()
+        case (4, 2):
+            vc = CAKeyframeAnimationWithTimingFuncitonVC()
         default:
             break
         }
@@ -144,6 +187,18 @@ class MenuVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
 
     
+    // MARK: - TabBarControllerDelegate
+    func tabBarController(tabBarController: UITabBarController, didSelectViewController viewController: UIViewController) {
+        
+        // 经实践: 下面的代码 在 iOS 9.3 模拟器上 没有效果
+        // 因为 iOS7.0 开始有另外的 delegate, 参考下一下方法
+        let trans = CATransition()
+        trans.type = kCATransitionFade
+        trans.duration = 1.0
+        
+        // 把动画效果加到 TabBarController的VC里去
+        viewController.view.layer.addAnimation(trans, forKey: nil)
+    }
     
     
 }

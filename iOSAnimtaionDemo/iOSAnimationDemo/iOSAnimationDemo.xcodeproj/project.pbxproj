@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		548B5632F22DFF366FFD765C /* Pods_iOSAnimationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47008F40D1DECF5F33F96CE /* Pods_iOSAnimationDemo.framework */; };
+		D15E61311D36FFBD008FE4BF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D15E612D1D36FFBD008FE4BF /* 1.jpg */; };
+		D15E61321D36FFBD008FE4BF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D15E612E1D36FFBD008FE4BF /* 2.jpg */; };
+		D15E61331D36FFBD008FE4BF /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D15E612F1D36FFBD008FE4BF /* 3.jpg */; };
+		D15E61341D36FFBD008FE4BF /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D15E61301D36FFBD008FE4BF /* 4.jpg */; };
+		D15E61361D370021008FE4BF /* FadeAnimationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15E61351D370021008FE4BF /* FadeAnimationVC.swift */; };
+		D15E61381D37086A008FE4BF /* TabOneVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15E61371D37086A008FE4BF /* TabOneVC.swift */; };
+		D15E613A1D370883008FE4BF /* TabTwoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15E61391D370883008FE4BF /* TabTwoVC.swift */; };
 		D162EB691D31E865004B9773 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D162EB681D31E865004B9773 /* AppDelegate.swift */; };
 		D162EB6B1D31E865004B9773 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D162EB6A1D31E865004B9773 /* ViewController.swift */; };
 		D162EB6E1D31E865004B9773 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D162EB6C1D31E865004B9773 /* Main.storyboard */; };
@@ -17,6 +24,13 @@
 		D162EB7F1D31E870004B9773 /* GGSnapKitExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D162EB7C1D31E870004B9773 /* GGSnapKitExt.swift */; };
 		D162EB801D31E870004B9773 /* GGViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = D162EB7D1D31E870004B9773 /* GGViewExt.swift */; };
 		D162EB861D31E8E0004B9773 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D162EB851D31E8E0004B9773 /* MenuVC.swift */; };
+		D1B1DC9F1D38CA9C0029F337 /* TransitionWithViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DC9E1D38CA9C0029F337 /* TransitionWithViewVC.swift */; };
+		D1B1DCA11D39B7480029F337 /* CAMediaTimingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DCA01D39B7470029F337 /* CAMediaTimingVC.swift */; };
+		D1B1DCA31D39B94A0029F337 /* AutoReverseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DCA21D39B94A0029F337 /* AutoReverseVC.swift */; };
+		D1B1DCA51D39C0020029F337 /* ReverseControlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DCA41D39C0020029F337 /* ReverseControlVC.swift */; };
+		D1B1DCA71D39C41C0029F337 /* CAMediaTimingFunctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DCA61D39C41C0029F337 /* CAMediaTimingFunctionVC.swift */; };
+		D1B1DCA91D39C5C00029F337 /* ViewAnimateCurveOptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DCA81D39C5C00029F337 /* ViewAnimateCurveOptionVC.swift */; };
+		D1B1DCAB1D39C7EC0029F337 /* CAKeyframeAnimationWithTimingFuncitonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B1DCAA1D39C7EC0029F337 /* CAKeyframeAnimationWithTimingFuncitonVC.swift */; };
 		D1D882B21D31FC0F003A78D8 /* CAShapeLayerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D882B11D31FC0F003A78D8 /* CAShapeLayerVC.swift */; };
 		D1D882B41D31FD50003A78D8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D882B31D31FD50003A78D8 /* QuartzCore.framework */; };
 		D1D882B61D31FDE7003A78D8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D882B51D31FDE7003A78D8 /* CoreMedia.framework */; };
@@ -63,6 +77,13 @@
 		76161511D077F4308D2C98BF /* Pods-iOSAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAnimationDemo/Pods-iOSAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A47008F40D1DECF5F33F96CE /* Pods_iOSAnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSAnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E0630D52F1607AE9CFB4D6 /* Pods-iOSAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSAnimationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSAnimationDemo/Pods-iOSAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D15E612D1D36FFBD008FE4BF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		D15E612E1D36FFBD008FE4BF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		D15E612F1D36FFBD008FE4BF /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		D15E61301D36FFBD008FE4BF /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		D15E61351D370021008FE4BF /* FadeAnimationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeAnimationVC.swift; sourceTree = "<group>"; };
+		D15E61371D37086A008FE4BF /* TabOneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabOneVC.swift; sourceTree = "<group>"; };
+		D15E61391D370883008FE4BF /* TabTwoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTwoVC.swift; sourceTree = "<group>"; };
 		D162EB651D31E865004B9773 /* iOSAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D162EB681D31E865004B9773 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D162EB6A1D31E865004B9773 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,6 +95,13 @@
 		D162EB7C1D31E870004B9773 /* GGSnapKitExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGSnapKitExt.swift; sourceTree = "<group>"; };
 		D162EB7D1D31E870004B9773 /* GGViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GGViewExt.swift; sourceTree = "<group>"; };
 		D162EB851D31E8E0004B9773 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		D1B1DC9E1D38CA9C0029F337 /* TransitionWithViewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionWithViewVC.swift; sourceTree = "<group>"; };
+		D1B1DCA01D39B7470029F337 /* CAMediaTimingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAMediaTimingVC.swift; sourceTree = "<group>"; };
+		D1B1DCA21D39B94A0029F337 /* AutoReverseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoReverseVC.swift; sourceTree = "<group>"; };
+		D1B1DCA41D39C0020029F337 /* ReverseControlVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseControlVC.swift; sourceTree = "<group>"; };
+		D1B1DCA61D39C41C0029F337 /* CAMediaTimingFunctionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAMediaTimingFunctionVC.swift; sourceTree = "<group>"; };
+		D1B1DCA81D39C5C00029F337 /* ViewAnimateCurveOptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewAnimateCurveOptionVC.swift; sourceTree = "<group>"; };
+		D1B1DCAA1D39C7EC0029F337 /* CAKeyframeAnimationWithTimingFuncitonVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAKeyframeAnimationWithTimingFuncitonVC.swift; sourceTree = "<group>"; };
 		D1D882B11D31FC0F003A78D8 /* CAShapeLayerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAShapeLayerVC.swift; sourceTree = "<group>"; };
 		D1D882B31D31FD50003A78D8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D1D882B51D31FDE7003A78D8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
@@ -165,6 +193,10 @@
 				D1D882D01D334D0C003A78D8 /* mj.mp4 */,
 				D1D882CE1D3345BF003A78D8 /* gs.jpg */,
 				D1D882B91D32076C003A78D8 /* g.jpg */,
+				D15E612D1D36FFBD008FE4BF /* 1.jpg */,
+				D15E612E1D36FFBD008FE4BF /* 2.jpg */,
+				D15E612F1D36FFBD008FE4BF /* 3.jpg */,
+				D15E61301D36FFBD008FE4BF /* 4.jpg */,
 				D162EB841D31E8CC004B9773 /* Classes */,
 				D162EB681D31E865004B9773 /* AppDelegate.swift */,
 				D162EB6A1D31E865004B9773 /* ViewController.swift */,
@@ -218,6 +250,16 @@
 				D1D882E41D3474D7003A78D8 /* BezierPathAnimationVC.swift */,
 				D1D882E61D347946003A78D8 /* TransformAnimationVC.swift */,
 				D1D882E81D347BA3003A78D8 /* AnimationGroupVC.swift */,
+				D15E61351D370021008FE4BF /* FadeAnimationVC.swift */,
+				D15E61371D37086A008FE4BF /* TabOneVC.swift */,
+				D15E61391D370883008FE4BF /* TabTwoVC.swift */,
+				D1B1DC9E1D38CA9C0029F337 /* TransitionWithViewVC.swift */,
+				D1B1DCA01D39B7470029F337 /* CAMediaTimingVC.swift */,
+				D1B1DCA21D39B94A0029F337 /* AutoReverseVC.swift */,
+				D1B1DCA41D39C0020029F337 /* ReverseControlVC.swift */,
+				D1B1DCA61D39C41C0029F337 /* CAMediaTimingFunctionVC.swift */,
+				D1B1DCA81D39C5C00029F337 /* ViewAnimateCurveOptionVC.swift */,
+				D1B1DCAA1D39C7EC0029F337 /* CAKeyframeAnimationWithTimingFuncitonVC.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -291,12 +333,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D15E61331D36FFBD008FE4BF /* 3.jpg in Resources */,
 				D1D882D11D334D0C003A78D8 /* mj.mp4 in Resources */,
 				D1D882CF1D3345BF003A78D8 /* gs.jpg in Resources */,
 				D162EB731D31E865004B9773 /* LaunchScreen.storyboard in Resources */,
 				D162EB701D31E865004B9773 /* Assets.xcassets in Resources */,
 				D162EB6E1D31E865004B9773 /* Main.storyboard in Resources */,
 				D1D882BA1D32076C003A78D8 /* g.jpg in Resources */,
+				D15E61321D36FFBD008FE4BF /* 2.jpg in Resources */,
+				D15E61341D36FFBD008FE4BF /* 4.jpg in Resources */,
+				D15E61311D36FFBD008FE4BF /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,31 +401,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1B1DCAB1D39C7EC0029F337 /* CAKeyframeAnimationWithTimingFuncitonVC.swift in Sources */,
+				D15E61381D37086A008FE4BF /* TabOneVC.swift in Sources */,
 				D1D882E11D346BE8003A78D8 /* PropertyAnimationVC.swift in Sources */,
 				D1D882D71D33BD84003A78D8 /* ChangeColorVC.swift in Sources */,
 				D1D882DB1D33D3C7003A78D8 /* ViewLayerActionVC.swift in Sources */,
 				D1D882DF1D346359003A78D8 /* PresentationLayerVC.swift in Sources */,
 				D1D882C41D33203C003A78D8 /* CAReplicatorLayerVC.swift in Sources */,
+				D15E61361D370021008FE4BF /* FadeAnimationVC.swift in Sources */,
 				D1D882D31D334D1F003A78D8 /* AVPlayerLayerVC.swift in Sources */,
 				D1D882CB1D3332B3003A78D8 /* ReflectionVC.swift in Sources */,
 				D1D882BC1D320B66003A78D8 /* GGImageViewCornerExt.swift in Sources */,
 				D1D882B81D3202D5003A78D8 /* RoundCornerMaskVC.swift in Sources */,
 				D1D882E51D3474D7003A78D8 /* BezierPathAnimationVC.swift in Sources */,
 				D1D882E71D347946003A78D8 /* TransformAnimationVC.swift in Sources */,
+				D1B1DCA71D39C41C0029F337 /* CAMediaTimingFunctionVC.swift in Sources */,
+				D1B1DCA91D39C5C00029F337 /* ViewAnimateCurveOptionVC.swift in Sources */,
 				D1D882B21D31FC0F003A78D8 /* CAShapeLayerVC.swift in Sources */,
 				D1D882E91D347BA3003A78D8 /* AnimationGroupVC.swift in Sources */,
 				D162EB6B1D31E865004B9773 /* ViewController.swift in Sources */,
 				D162EB691D31E865004B9773 /* AppDelegate.swift in Sources */,
 				D1D882D91D33CD56003A78D8 /* GGUIColorExt.swift in Sources */,
+				D1B1DC9F1D38CA9C0029F337 /* TransitionWithViewVC.swift in Sources */,
+				D1B1DCA51D39C0020029F337 /* ReverseControlVC.swift in Sources */,
 				D1D882DD1D345E72003A78D8 /* TransactionPushVC.swift in Sources */,
 				D1D882BE1D33012C003A78D8 /* CATextLayerVC.swift in Sources */,
+				D1B1DCA11D39B7480029F337 /* CAMediaTimingVC.swift in Sources */,
 				D1D882C01D331305003A78D8 /* CATransformLayerVC.swift in Sources */,
 				D1D882CD1D3341D1003A78D8 /* CAEmitterLayerVC.swift in Sources */,
+				D1B1DCA31D39B94A0029F337 /* AutoReverseVC.swift in Sources */,
 				D162EB7F1D31E870004B9773 /* GGSnapKitExt.swift in Sources */,
 				D162EB801D31E870004B9773 /* GGViewExt.swift in Sources */,
 				D1D882C61D3320C3003A78D8 /* GGUIViewControllerExt.swift in Sources */,
 				D1D882E31D347378003A78D8 /* CAKeyframeAnimation.swift in Sources */,
 				D162EB7E1D31E870004B9773 /* GGButtonExt.swift in Sources */,
+				D15E613A1D370883008FE4BF /* TabTwoVC.swift in Sources */,
 				D1D882C21D331CD9003A78D8 /* CAGradientLayerVC.swift in Sources */,
 				D162EB861D31E8E0004B9773 /* MenuVC.swift in Sources */,
 			);

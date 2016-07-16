@@ -20,6 +20,6 @@ public extension UIViewController {
         if let _ = navigationController {
             title = String(self.classForCoder)
         }
-        
+ 
     }
 }
